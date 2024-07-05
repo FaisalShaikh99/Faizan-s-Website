@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Forum&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#536942;
+    --secondary:#ffd936;
+    --white: #efefef;
+}
+body{
+    font-family:"DM Sans",sans-serif;
+    color: var(--primary);
+}
+.main{
+    background-image: url(n4.webp);
+    background-position:  center;
+    background-size: cover;
+    min-height:100vh;
+}
+.container{
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    align-items: center;
+}
+.nav-list a{
+    color:#536942;
+   font-weight : bold;
+
+    
+}
+.nav-list a:hover{
+    font-size:20px ;
+    color: #536942;
+
+}
+.main-content button:hover{
+     color: var(--primary);
+    background-color: #536942;
+    font-weight: bold;
+    border: #536942 solid 3px;
+}
+.btn{
+    padding: 12px 20px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.btn-secondary{
+    border: 2px solid var(--white);
+    color: #536942;
+    font-weight: bold;
+    font-weight: bold;
+    border-color: #536942;
+}
+
+
+.btn-primary{
+    border: none;
+    color: var(--primary);
+    background: var(--secondary);
+}
+.main-content{
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    flex-direction: column;
+    display: flex;
+    margin-top: 80px;
+
+}
+.main-content .intro-heading{
+    font-size: 50px;
+    
+}
+.main-content .main-heading{
+    font-size: 110px;
+    margin-top: -20px;
+}
+.main-content p{
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+.menu-button{
+    margin-top: 35px;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    position: absolute;
+    display: none;
+    width: 30px;
+    
+}
+.section-title{
+    font-size: 50px;
+    text-align: center;
+}
+.section-title .line{
+
+    width: 150px;
+    height: 4px;
+    border-radius: 10px;
+    background: #ffd936;
+    margin: auto;
+}
+section{
+    margin: 80px auto;
+}
+.services{
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service{
+    width: 270px;
+}
+.service img{
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.service img:hover{
+    transform: scale(1.05);
+}
+#tastimonial{
+    background: #d2d4db;
+}
+#tastimonial.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px 16px;
+}
+.quota{
+    font-size: 30px; 
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+#tastimonial .profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+.about-content button:hover{
+    color:var(--primary);
+    background-color: #ffd936;
+    font-weight: bold;
+    border: #ffd936 solid 3px;
+}
+.container button:hover{
+    color: var(--primary);
+    background-color: #ffd936;
+    font-weight: bold;
+    border: #ffd936 solid 3px;
+}
+#about-us .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+#about-us .container .about-content{
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    flex-direction: column;
+    max-width: 500px;
+}
+#about-us .container .about-content h1{
+    font-family: "Forum",sans-serif;
+    font-size: 30px;
+
+}
+#Questions{
+    background-image: url(road.jpeg);
+    display: flex;
+    background-position: bottom center;
+    background-size: cover;
+
+}
+#Questions .container{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+}
+#Questions h1{
+    font-size: 50px;
+    color: #efefef;
+}
+#Questions p{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 25px;
+}
+footer{
+    margin-top: -60px;
+}
+footer .container{
+    display: flex;
+    padding: 20px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: #ffd936;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+
+
+
+
+   
+
+@media screen and (max-width:520px) {
+    .menu-button{
+        display: block;
+    }
+    .nav-list{
+        flex-direction:column;
+        background:gray;
+        position: absolute;
+        top:0;
+        right: -900px;
+        width: 100%;
+        height: 100vh;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-list.active{
+        right: 0;
+    }
+    .nav-list li :not(:last-child){
+        text-align: left;
+        padding: 10px 30px;
+        width: 100%;
+        border-bottom: 1px solid var(--white);
+    }
+    #about-us .container{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    footer .container{
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+

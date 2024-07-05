@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: 100%;
+    color: white;
+    font-family: "Mulish", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+
+
+}
+ul button{
+    background-color:goldenrod;
+    width: 100px;
+    height: 34px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+ul button:hover{
+    border: 3px solid goldenrod;
+    background-color: rgb(240, 187, 54);
+    cursor: pointer;
+
+}
+nav h1{
+    font-size: 80px;
+    font-family: "Lato", sans-serif;
+
+}
+ul{
+    display:flex ;
+    list-style: none;
+
+
+}
+ul li a{
+   margin-inline: 30px;
+   font-size: 25px;
+}
+ul li a:hover{
+    border-bottom: 4px solid rgb(253, 196, 51);
+    border-radius: 3px;
+    margin-top: 2px;
+    cursor: pointer;
+    font-size: 27px;
+}
+.text{
+    margin-left: 7%;
+    margin-top: 120px;
+}
+.text h1{
+    font-size:100px;
+    font-family: "Lato", sans-serif;
+
+
+}
+.text p{
+    font-size:27px;
+    margin-top: 20px;
+    
+    
+}
+.text button{
+    font-size:30px;
+    width: 170px;
+    height: 44px;
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+}
+.text button:hover{
+    border: 3px solid goldenrod;
+    background-color: rgb(240, 187, 54);
+    cursor: pointer;
+}
+nav span{
+    color: goldenrod;
+}
