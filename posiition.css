@@ -1,0 +1,61 @@
+.container{
+    width: 250px;
+    height: 250px;
+    background-color: lightpink;
+    margin: 100px;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+   
+
+
+}
+.yellow{
+    background-color: yellow;
+    position: relative;
+    top: -50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    padding: 50px;
+
+}
+.skyblue{
+    background-color: skyblue;
+    position:fixed;
+    top: -50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    padding: 50px;
+
+
+    
+   
+    
+}
+.green{
+    background-color: green;
+    position: sticky;
+    top: -50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    padding: 50px;
+
+
+    
+}
+.purple{
+    background-color: purple;
+    position: absolute;
+    top: -50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    padding: 50px;
+
+
+}

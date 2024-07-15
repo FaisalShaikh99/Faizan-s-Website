@@ -1,0 +1,62 @@
+.container{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px gray;
+    /* background-image: url(car.jpg); */
+    justify-content: space-around;
+    /* background-image: url(C:\Users\Metro\Desktop\html\images\car.jpg); */
+    height: 500px;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    border:5px solid white;
+    /* background-image: url(C:\Users\Metro\Desktop\html\images\car.jpg); */
+    box-shadow: 10px 10px 10px gray;
+
+    
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    border:5px solid white;
+    box-shadow: 10px 10px 10px gray;
+
+}
+.box3{
+    width: 300px;
+    height: 300px;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    border:5px solid white;
+    box-shadow: 10px 10px 10px gray;
+
+}
+h3{
+    font-size: xx-large;
+    /* font-family: fantasy; */
+    font-weight: 50;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: chocolate; */
+    color:white;
+    margin: 10%;
+}
+p{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    /* background-color: lemonchiffon; */
+    color: white;
+    margin: 5% ;
+    
+
+}
